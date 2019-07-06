@@ -43,10 +43,11 @@ body {
   color: white;
 }
 
-/*.pinnacle_checkbox input {
+.pinnacle_checkbox input {
   display: none;
 }
-.pinnacle_checkbox label {
+
+/*.pinnacle_checkbox label {
   display: block;
   height: 50px;
   width: 100px;
