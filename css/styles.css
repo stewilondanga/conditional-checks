@@ -32,18 +32,18 @@ body {
   height: 1.5em;
 }
 
-/*.cpc_container {
+.cpc_container {
   padding: 100px;
   width: 100%;
   max-width: 710px;
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
   color: white;
 }
 
-.pinnacle_checkbox input {
+/*.pinnacle_checkbox input {
   display: none;
 }
 .pinnacle_checkbox label {
