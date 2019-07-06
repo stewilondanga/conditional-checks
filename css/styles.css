@@ -92,10 +92,11 @@ body {
   width: 50%;
 }
 
-/*.question {
+.question {
   margin-bottom: 60px;
 }
-.question .question_title {
+
+/*.question .question_title {
   margin-bottom: 20px;
 }
 
