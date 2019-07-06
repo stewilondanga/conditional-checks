@@ -19,8 +19,6 @@ var summary_wordage = {
     unchecked: "You haven't agreed to our terms and conditions."
   }
 }
-/*
-
 
 function updateSummary(checkbox) {
 
@@ -76,18 +74,18 @@ function updateSummary(checkbox) {
 
 }
 
+/*
 
+  // Stores array of checkbox elements
+  var checkboxes = document.querySelectorAll(".pinnacle_checkbox input");
 
-// Stores array of checkbox elements
-var checkboxes = document.querySelectorAll(".pinnacle_checkbox input");
+  for (var i = 0; i < checkboxes.length; i++) {
 
-for (var i = 0; i < checkboxes.length; i++) {
+    // Sets event listeners on checkboxes to update summary on change.
+    checkboxes[i].addEventListener('change', (event) => {
+      updateSummary(event.target);
+    })
 
-  // Sets event listeners on checkboxes to update summary on change.
-  checkboxes[i].addEventListener('change', (event) => {
-    updateSummary(event.target);
-  })
-
-  // Sets summary content on first load
-  updateSummary(checkboxes[i]);
-}
+    // Sets summary content on first load
+    updateSummary(checkboxes[i]);
+  }
