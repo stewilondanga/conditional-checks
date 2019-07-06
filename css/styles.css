@@ -47,7 +47,7 @@ body {
   display: none;
 }
 
-/*.pinnacle_checkbox label {
+.pinnacle_checkbox label {
   display: block;
   height: 50px;
   width: 100px;
@@ -57,7 +57,8 @@ body {
   cursor: pointer;
   background-color: lightgray;
 }
-.pinnacle_checkbox label .unchecked_area {
+
+/*.pinnacle_checkbox label .unchecked_area {
   width: 50%;
   height: 100%;
   background-color: #E25E5E;
