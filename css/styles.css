@@ -28,11 +28,11 @@ body {
   height: 2.5em;
 }
 
-/*.my_social a img {
+.my_social a img {
   height: 1.5em;
 }
 
-.cpc_container {
+/*.cpc_container {
   padding: 100px;
   width: 100%;
   max-width: 710px;
@@ -126,7 +126,7 @@ body {
 }
 
 #contact h1 {
-  font-family: helvetica;
+  font-family: "Montserrat";
   font-weight: normal;
   text-align: center;
   color: #c0c0c0;
