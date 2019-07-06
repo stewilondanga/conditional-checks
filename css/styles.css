@@ -88,11 +88,11 @@ body {
   width: 0%;
 }
 
-/*.pinnacle_checkbox input:checked + label .checked_area {
+.pinnacle_checkbox input:checked+label .checked_area {
   width: 50%;
 }
 
-.question {
+/*.question {
   margin-bottom: 60px;
 }
 .question .question_title {
