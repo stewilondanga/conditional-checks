@@ -114,11 +114,11 @@ body {
   border: 2px solid #64BE7C;
 }
 
-/*.summary_title {
+.summary_title {
   margin-bottom: 20px;
 }
 
-.summary_entry {
+/*.summary_entry {
   padding: 20px;
   border-left: 20px solid #E25E5E;
   transition: border-left .3s ease;
