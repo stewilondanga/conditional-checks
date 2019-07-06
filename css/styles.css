@@ -110,11 +110,11 @@ body {
   max-width: 500px;
 }
 
-/*.summary_content.valid {
+.summary_content.valid {
   border: 2px solid #64BE7C;
 }
 
-.summary_title {
+/*.summary_title {
   margin-bottom: 20px;
 }
 
