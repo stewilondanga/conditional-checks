@@ -100,7 +100,7 @@ body {
   margin-bottom: 20px;
 }
 
-/*.summary_content {
+.summary_content {
   width: 100%;
   border: 2px solid #E25E5E;
   border-radius: 5px;
@@ -109,7 +109,8 @@ body {
   transition: border .3s ease;
   max-width: 500px;
 }
-.summary_content.valid {
+
+/*.summary_content.valid {
   border: 2px solid #64BE7C;
 }
 
