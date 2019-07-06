@@ -6,7 +6,7 @@ var navigate = (function() {
     $('.' + dataName).toggle();
   });
 })();
-/*
+
 // Object that stores summary text.
 var summary_wordage = {
   promo_email_sum: {
@@ -19,7 +19,7 @@ var summary_wordage = {
     unchecked: "You haven't agreed to our terms and conditions."
   }
 }
-
+/*
 
 
 function updateSummary(checkbox) {
