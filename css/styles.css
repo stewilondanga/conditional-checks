@@ -84,10 +84,11 @@ body {
   border: 2px solid #64BE7C;
 }
 
-/*.pinnacle_checkbox input:checked + label .unchecked_area {
+.pinnacle_checkbox input:checked+label .unchecked_area {
   width: 0%;
 }
-.pinnacle_checkbox input:checked + label .checked_area {
+
+/*.pinnacle_checkbox input:checked + label .checked_area {
   width: 50%;
 }
 
