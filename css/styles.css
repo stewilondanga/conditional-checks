@@ -118,13 +118,14 @@ body {
   margin-bottom: 20px;
 }
 
-/*.summary_entry {
+.summary_entry {
   padding: 20px;
   border-left: 20px solid #E25E5E;
   transition: border-left .3s ease;
   color: black;
 }
-.summary_entry.valid {
+
+/*.summary_entry.valid {
   border-left: 20px solid #64BE7C;
 }
 
