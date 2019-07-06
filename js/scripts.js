@@ -74,18 +74,18 @@ function updateSummary(checkbox) {
 
 }
 
-/*
 
-  // Stores array of checkbox elements
-  var checkboxes = document.querySelectorAll(".pinnacle_checkbox input");
 
-  for (var i = 0; i < checkboxes.length; i++) {
+// Stores array of checkbox elements
+var checkboxes = document.querySelectorAll(".pinnacle_checkbox input");
 
-    // Sets event listeners on checkboxes to update summary on change.
-    checkboxes[i].addEventListener('change', (event) => {
-      updateSummary(event.target);
-    })
+for (var i = 0; i < checkboxes.length; i++) {
 
-    // Sets summary content on first load
-    updateSummary(checkboxes[i]);
-  }
+  // Sets event listeners on checkboxes to update summary on change.
+  checkboxes[i].addEventListener('change', (event) => {
+    updateSummary(event.target);
+  })
+
+  // Sets summary content on first load
+  updateSummary(checkboxes[i]);
+}
