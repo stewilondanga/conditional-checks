@@ -125,11 +125,11 @@ body {
   color: black;
 }
 
-/*.summary_entry.valid {
+.summary_entry.valid {
   border-left: 20px solid #64BE7C;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
